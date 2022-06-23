@@ -6,7 +6,7 @@ All commands to be run from the project root after a `cargo build`
 
 Create a raffle, with proceeds mint, amount, end date, max-entrants and a specific wallet
 
-`./target/debug/draffle create-raffle So11111111111111111111111111111111111111112 10000000 "$(date --utc -d "+96 hour" '+%Y-%m-%d %H:%M')" --max-entrants 690 --provider.cluster mainnet --provider.wallet ../admin/keypairs/operation-keypair.json --program-id dRafA7ymQiLKjR5dmmdZC9RPX4EQUjqYFB3mWokRuDs`
+`./target/debug/draffle create-raffle So11111111111111111111111111111111111111112 10000000 "$(date --utc -d "+96 hour" '+%Y-%m-%d %H:%M')" --max-entrants 888 --provider.cluster mainnet --provider.wallet ../admin/keypairs/operation-keypair.json --program-id dRafA7ymQiLKjR5dmmdZC9RPX4EQUjqYFB3mWokRuDs`
 
 Raffle address: D45wu2y8EjetNwkCxVLqW3Rfk5oZWiuUvHhMavSjW3Uc
 Cluster clock unix_timestamp: 1639052930, raffle end_timestamp: 1639398480

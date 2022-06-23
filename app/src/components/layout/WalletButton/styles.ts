@@ -6,7 +6,7 @@ export const useStyles = makeStyles<Theme>((theme: Theme) => ({
     width: '100%',
     backgroundColor: 'transparent',
     borderColor: theme.palette.common.white,
-    boxShadow: '0 0 5px 2px #e86bff, inset 0 0 10px 0px #e86bff',
+    boxShadow: '0 0 5px 2px #ff0034, inset 0 0 10px 0px #ff0034',
     color: theme.palette.common.white,
     '&:hover': {
       backgroundColor: alpha(theme.palette.primary.main, 0.2),

@@ -22,17 +22,17 @@ const LandingScreen: FC = () => {
     <div className={classes.root}>
       <img
         className={device === DeviceType.Phone ? 'banner-small' : 'banner'}
-        src="dRaffle-LC-banner.png"
+        src="raffle-banner-2.png"
         alt={'Site banner'}
         width={device === DeviceType.Phone ? '280px' : '600px'}
       />
       <div className={classes.socialLinksContainer}>
         <div className={classes.socialLinkContainer}>
-          <Tooltip title="Discord" placement="top">
+          <Tooltip title="Discord Private" placement="top">
             <Link
               className={classes.socialLink}
               target="blank"
-              href={`https://t.co/BtbE5rb6Bk?amp=1`}
+              href={`#`}
             >
               <img src={discordLogo} alt={'disord-logo'} width="50px" />
             </Link>
@@ -43,18 +43,18 @@ const LandingScreen: FC = () => {
             <Link
               className={classes.socialLink}
               target="blank"
-              href={`https://twitter.com/draffleluckclub`}
+              href={`https://twitter.com/BlockHeads_io`}
             >
               <img src={twitterLogo} alt={'twitter-logo'} width="50px" />
             </Link>
           </Tooltip>
         </div>
         <div className={classes.socialLinkContainer}>
-          <Tooltip title="Litepaper" placement="top">
+          <Tooltip title="Whitepaper" placement="top">
             <Link
               className={classes.socialLink}
               target="blank"
-              href={`dRaffle-litepaper.pdf`}
+              href={`https://whitepaper.block-heads.io`}
             >
               <img src={documentLogo} alt={'document-logo'} width="50px" />
             </Link>

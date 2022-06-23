@@ -68,7 +68,8 @@ const AdminHomeScreen: FC = () => {
                         'So11111111111111111111111111111111111111112'
                       ),
                       mintTokenOut: new PublicKey(
-                        'zRpVjG5wMWrNhpTtSiGMz9iBaMTQDdaVGCFLmYqCs4U'
+                        // 'zRpVjG5wMWrNhpTtSiGMz9iBaMTQDdaVGCFLmYqCs4U'
+                        'FbUzTvXeHxPXKpZQHWMvoVXXW6aEhitfoakRttUBBzVx'
                       ),
                       tokenProgram: TOKEN_PROGRAM_ID,
                       systemProgram: SystemProgram.programId,

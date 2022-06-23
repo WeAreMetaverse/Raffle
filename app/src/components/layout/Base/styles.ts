@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme: Theme) => ({
     width: '100vw',
     height: '100vh',
     background:
-      'linear-gradient(0deg, rgba(57,9,74,1) 0%, rgba(6,18,98,1) 100%, rgba(57,9,74,1) 100%);',
+      'linear-gradient(0deg, rgba(1,1,1,1) 10%, rgba(20,20,20,1) 100%, rgba(57,9,74,1) 100%);',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',

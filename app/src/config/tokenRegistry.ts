@@ -59,13 +59,13 @@ const tokenRegistry = {
       twitter: 'https://twitter.com/SollamaFinance',
     },
   },
-  DCTo8EdRrycGpjRDntmdAMoaHdq77mQwdEchtoXAtje3: {
+  FbUzTvXeHxPXKpZQHWMvoVXXW6aEhitfoakRttUBBzVx: {
     chainId: 101,
-    address: 'DCTo8EdRrycGpjRDntmdAMoaHdq77mQwdEchtoXAtje3',
-    symbol: 'DCT',
-    name: 'dRaffle Community Token',
-    decimals: 6,
-    logoURI: '/dRaffle-logo.png',
+    address: 'FbUzTvXeHxPXKpZQHWMvoVXXW6aEhitfoakRttUBBzVx',
+    symbol: 'BBX',
+    name: 'BlockBux Culture Token',
+    decimals: 9,
+    logoURI: '/favicon.ico',
     tags: []
   },
   '7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU': {

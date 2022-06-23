@@ -19,7 +19,7 @@ pub const PROTOCOL_FEE_BPS: u128 = 0;
 pub mod treasury {
     use super::*;
     // Replace with your treasury, this is the default treasury for testing purposes
-    declare_id!("Treasury11111111111111111111111111111111112");
+    declare_id!("TmsFVZ3YW7tnTPMwc6zGCX1t7khQLs796X9d3QHvzA8");
 }
 
 #[cfg(not(feature = "production"))]

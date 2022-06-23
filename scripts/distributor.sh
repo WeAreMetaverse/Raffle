@@ -2,7 +2,8 @@
 # 0.1 SOL and 1 TT should do
 SCRIPT_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
-DCT_MINT_ADDRESS=DCTo8EdRrycGpjRDntmdAMoaHdq77mQwdEchtoXAtje3
+#DCT_MINT_ADDRESS=DCTo8EdRrycGpjRDntmdAMoaHdq77mQwdEchtoXAtje3
+DCT_MINT_ADDRESS=FbUzTvXeHxPXKpZQHWMvoVXXW6aEhitfoakRttUBBzVx
 echo "${DCT_MINT_ADDRESS}"
 
 while read p; do

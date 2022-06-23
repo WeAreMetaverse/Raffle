@@ -214,7 +214,7 @@ const StakeScreen: FC = () => {
         >
           <CardMedia
             component="img"
-            src="/dRaffle-logo.png"
+            src="/raffle.png"
             className={classes.media}
           />
         </Box>

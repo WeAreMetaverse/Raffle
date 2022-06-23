@@ -3,7 +3,7 @@ import { TESTING } from './misc';
 import { DISPENSER_PROGRAM_ID, DISPENSER_REGISTRY_ADDRESS } from './programIds';
 
 export const ADMIN_ACCOUNTS = TESTING
-  ? ['2zcTAzzHmvVPWjpFL5PnHhF6yutr5VXq61xueshhPwnU']
+  ? ['45jF4Pix6DPsoP6DooiKNiEtjrRpkX3AzpxXU3XQZAk3']
   : ['86f5xSDrue8Zz4QfuMErURN3o393L72zA1J2WRsYeTGB'];
 
 export const [VAULT_TOKEN_IN] = utils.publicKey.findProgramAddressSync(
